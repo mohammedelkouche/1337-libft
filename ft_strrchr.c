@@ -6,7 +6,7 @@
 /*   By: mel-kouc <mel-kouc@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/10 14:53:58 by mel-kouc          #+#    #+#             */
-/*   Updated: 2022/11/16 16:02:39 by mel-kouc         ###   ########.fr       */
+/*   Updated: 2023/02/28 17:44:26 by mel-kouc         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 char	*ft_strrchr(const char *s, int c)
 {
-	size_t	i;
+	int	i;
 
 	i = ft_strlen(s);
 	while (i >= 0)
